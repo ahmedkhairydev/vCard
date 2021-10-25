@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port=4900 -o",
-    "build": "ng build --prod --base-href https://ahmedkhairydev.github.io/vCard-QR/",
-    "ngh": "ngh --repo=https://github.com/ahmedkhairydev/vCard-QR.git --dir=dist --no-silent",
-    "deploy": "ng deploy --repo=https://github.com/ahmedkhairydev/vCard-QR.git --name=Ahmed Khairy",
+    "build": "ng build --prod --base-href https://ahmedkhairydev.github.io/vCard/",
+    "ngh": "ngh --repo=https://github.com/ahmedkhairydev/vCard.git --dir=dist --no-silent",
+    "deploy": "ng deploy --repo=https://github.com/ahmedkhairydev/vCard.git --name=Ahmed Khairy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

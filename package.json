@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port=4900 -o",
-    "build": "ng build --prod --base-href https://ahmedkhairydev.github.io/vCard/",
-    "ngh": "ngh --repo=https://github.com/ahmedkhairydev/vCard.git --dir=dist --no-silent",
-    "deploy": "ng deploy --repo=https://github.com/ahmedkhairydev/vCard.git --name=Ahmed Khairy",
+    "build": "ng build --prod --base-href /",
+    "ghpages": "ng add angular-cli-ghpages",
+    "deploy": "ng deploy --repo=https://github.com/ahmedkhairydev/vCard.git --base-href https://ahmedkhairydev.github.io/vCard/ --name=AhmedKhairy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
